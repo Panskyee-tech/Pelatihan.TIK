@@ -5,16 +5,20 @@ body {
 }
 
 .kartu profil {
-    width: 150px;
-    margin: 50px auto; /*50px jarak atas/bawah, auto menengahkan kiri/kanan*/
+    width: 300px;
+    margin: 20px auto; /*50px jarak atas/bawah, auto menengahkan kiri/kanan*/
     padding: 20px;
     background-color: white;
-    border-radius: 100px; /*membuat sudut menjadi melengkung*/
+    border-radius: 10px; /*membuat sudut menjadi melengkung*/
     box-shadow: 0 4px 8px rgba(0,0,0,0,1); /*efek bayangan*/
     text-align: center; /*menengahkan semua text di dalam kartu*/
 }
 
 .kartu profil.img {
-    width: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFFFFF;
+    margin-bottom: 10px;
 }
